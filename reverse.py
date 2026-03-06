@@ -1,7 +1,7 @@
-def reverse_string(s):
-    return s[::-1]   # slicing technique
+def reverse_string(text):
+    return text[::-1]
 
-# Example usage
-text = input("Enter a string: ")
-reversed_text = reverse_string(text)
-print("Reversed string:", reversed_text)
+
+if __name__ == "__main__":
+    user_input = input("Enter a string 1 : ")
+    print("Reversed string:", reverse_string(user_input))
